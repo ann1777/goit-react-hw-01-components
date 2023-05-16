@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FriendItem, Status, Image, Name } from './FriendListItem.styled';
+import { FriendItem, Status, Image, Name } from './FriendsListItem.styled';
 
-export const FriendListItem = ( { avatar, name, isOnline }) => {
+export const FriendsListItem = ( { avatar, name, isOnline }) => {
   return (
     <FriendItem>
       <Status isOnline={isOnline}></Status>
@@ -12,7 +12,7 @@ export const FriendListItem = ( { avatar, name, isOnline }) => {
   )
 }
 
-FriendListItem.propTypes = {
+FriendsListItem.propTypes = {
     avatar: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     isOnline: PropTypes.bool.isRequired,

@@ -5,10 +5,10 @@ import data from './Statistics/data.json';
 import { Statistics } from './Statistics/Statistics';
 
 import friends from './Friends/friends.json';
-import { FriendList } from './Friends/FriendList/FriendList';
+import { FriendList } from './Friends/FriendsList/FriendsList';
 
-import transactions from './TransactionHistory/transactions.json';
-import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transactions from './TransactionsHistory/transactions.json';
+import { TransactionsHistory } from './TransactionsHistory/TransactionsHistory';
 
 import { GlobalStyle } from '../GlobalStyle';
 
@@ -33,7 +33,7 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
-      <TransactionHistory items={transactions} />
+      <TransactionsHistory items={transactions} />
       <GlobalStyle />
  
     </div>
