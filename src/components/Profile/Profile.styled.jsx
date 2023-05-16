@@ -5,7 +5,7 @@ export const UserProfileCard = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
-
+ter;
     margin: 0 auto;
     margin-bottom: 5px;
     padding: 4px;
@@ -30,7 +30,7 @@ export const UserCard = styled.div`
 
 export const UserPhoto = styled.img`
     display: flex;
-    align-items: center;
+    align-items: cen
     justify-content: center;
     height: 150px;
     width: 150px;
