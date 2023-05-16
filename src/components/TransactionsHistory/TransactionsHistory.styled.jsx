@@ -4,10 +4,12 @@ export const Table = styled.table`
   margin: 0 auto;
   margin-bottom: 5px;
   padding: 4px;
+  font-size: 28px;
  
-  max-width: 90%;
-  width: 90%;
+  max-width: 50%;
+  width: 50%;
   border-radius: 8px;
+  background-color: #f4f5ed;
   box-shadow: -0.0625rem -0.0625rem 0.0625rem #fff,
     0.0625rem 0.0625rem 0.0625rem #babecc;
 `;
@@ -18,7 +20,6 @@ export const Thead = styled.thead`
   color: '#9e0202';
   text-shadow: 0.0625rem 0.0625rem 0.0625rem #fff;
   font-family: 'Roboto';
-  font-size: 1rem;
   text-transform: uppercase;
 `;
 

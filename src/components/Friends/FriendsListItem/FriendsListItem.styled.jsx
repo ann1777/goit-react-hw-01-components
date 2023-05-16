@@ -13,7 +13,7 @@ export const FriendItem = styled.li`
 
   border-radius: 8px;
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
-  background-color: '#e9edff';
+  background-color: #d5f5f5;
 `;
 
 export const Status = styled.span`

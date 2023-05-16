@@ -22,7 +22,7 @@ export const Title = styled.h2`
   text-shadow: 1px 1px 1px #fff;
   font-family: 'Roboto';
   font-weight: 700;
-  font-size:  32px;
+  font-size:  28px;
 
   text-transform: uppercase;
   text-align: center;
@@ -51,6 +51,14 @@ export const StatListItem = styled.li`
   height: 100%;
 
   text-shadow: 0 0 1px #000;
+  :hover {
+   background-color: rgb(115, 120, 175);
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+     -moz-box-shadow: 0 6px 6px -6px #0E1119;
+          box-shadow: 0 6px 6px -6px #0E1119;
+           color: #ffffff;
+    text-shadow: .0625rem .0625rem .0625rem #400075;
+  }
 
 
   :first-child {

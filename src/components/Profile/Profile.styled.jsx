@@ -5,9 +5,9 @@ export const UserProfileCard = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
-ter;
-    margin: 0 auto;
-    margin-bottom: 5px;
+    margin: 25 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 4px;
 
     max-width: 100%;
@@ -23,9 +23,13 @@ export const UserCard = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
     gap: 10px;
-    margin-bottom: 4px;
-    background-color: '#627cf3';
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* margin-bottom: 54px; */
+    background-color: #00ffff;
 `;
 
 export const UserPhoto = styled.img`
@@ -71,7 +75,8 @@ export const UserMediaStatsList = styled.ul`
     gap: 10px;
     justify-content: center;
     align-items: center;
-    padding: 4px;
+    padding: 14px;
+    background-color: #00ffff;
 `;
 
 export const MediaStastsListItem = styled.li`
