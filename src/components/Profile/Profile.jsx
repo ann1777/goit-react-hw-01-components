@@ -15,7 +15,7 @@ import {
     MediaStastsListInfo,
 } from './Profile.styled';
 
-export const UserProfile = ({ username, avatar, tag, location, stats }) => {
+export const UserProfile = ({ username, avatar, tag, location, stats: {followers, views, likes} }) => {
     return (
         <UserProfileCard>
           <UserCard>
@@ -29,19 +29,19 @@ export const UserProfile = ({ username, avatar, tag, location, stats }) => {
             <MediaStastsListItem>
               <MediaStastsListInfo>
                 <Label>Followers</Label>
-                <Quantity>{stats.followers}</Quantity>
+                <Quantity>{followers}</Quantity>
               </MediaStastsListInfo>
             </MediaStastsListItem>
             <MediaStastsListItem>
               <MediaStastsListInfo>
                 <Label>Views</Label>
-                <Quantity>{stats.views}</Quantity>
+                <Quantity>{views}</Quantity>
               </MediaStastsListInfo>
             </MediaStastsListItem>
             <MediaStastsListItem>
               <MediaStastsListInfo>
                 <Label>Likes</Label>
-                <Quantity>{stats.likes}</Quantity>
+                <Quantity>{likes}</Quantity>
               </MediaStastsListInfo>
             </MediaStastsListItem>
           </UserMediaStatsList>
