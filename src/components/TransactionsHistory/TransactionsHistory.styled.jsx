@@ -35,7 +35,8 @@ export const Tr = styled.tr`
 `;
 
 export const ExtendedTr = styled(Tr)`
-  background-color: '#dddff8';
+  background-color: ${props =>
+  props.idx % 2 === 0 ? '#c3c6e6' : 'transparent'};
 `;
 
 export const Th = styled.th`
@@ -77,6 +78,7 @@ export const Td = styled.td`
     transition-timing-function: line;
   }
 `;
+
 
 export const Type = styled(Td)`
   text-transform: capitalize;
